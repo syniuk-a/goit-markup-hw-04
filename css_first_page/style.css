@@ -611,16 +611,17 @@ img {
 .project-link-item {
   margin: var(--grid-margin);
   /* width: calc(100% / 3 - 2 * var(--grid-margin)); */
-  /* border: 1px solid #eeeeee; */
+  border: 1px solid #eeeeee;
 }
 .project-border {
   border: 1px solid #eeeeee;
+  cursor: pointer;
 }
 .project-card {
   display: block;
   align-items: center;
   max-width: 100%;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 .project-name {
   display: block;
@@ -641,3 +642,22 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
+.project-card:hover.project-border,
+.project-card:focus.project-border {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+/* 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+Effect: Drop shadow
+Radius: 6px
+Offset: 
+Effect: Drop shadow
+Radius: 4px
+Offset: 
+Effect: Drop shadow
+Radius: 1px
+Offset:  */
