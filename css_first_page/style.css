@@ -412,11 +412,11 @@ img {
 .permanent-client-section {
   display: block;
   /* height: 182px; */
-  max-width: 1200px;
 }
 .client-container {
   display: flex;
   align-items: center;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15;
 }
