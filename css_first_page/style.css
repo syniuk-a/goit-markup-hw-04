@@ -676,3 +676,26 @@ Offset:
 Effect: Drop shadow
 Radius: 1px
 Offset:  */
+/* .doing-infobox {
+  position: absolute;
+  /* width: 189px;
+  height: 16px;
+  left: 1106px;
+  top: 1462px; */
+
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background-color: springgreen;
+} */
